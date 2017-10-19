@@ -56822,8 +56822,10 @@ function setBaseAndTop(gd, sa, sieve) {
             if(bar.hasB && isNumeric(sa.c2l(barBase))) expandRange(sRange, barBase);
         }
     }
-
-    Axes.expand(sa, sRange, {tozero: true, padded: true});
+    //there should be a better way to define this, it should be a prop of each trace instead
+    //of a layout prop, because in the future, using 2 bar charts, it will apply this to all the charts.
+    var tozero = true && (gd.layout.stickZero===false)?false:true
+    Axes.expand(sa, sRange, {tozero: tozero, padded: true});
 }
 
 
