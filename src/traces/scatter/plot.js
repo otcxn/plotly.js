@@ -328,7 +328,14 @@ function plotOne(gd, idx, plotinfo, cdscatter, cdscatterAll, element, transition
             if(pt0 && pt1) {
                 if(ownFillDir) {
                     if(ownFillDir === 'y') {
-                        pt0[1] = pt1[1] = ya.c2p(0, true);
+                        var pad = gd._fullLayout._size.p;
+                        var xa = plotinfo.xaxis;
+                        var xlw = Drawing.crispRound(gd, xa.linewidth, 1);
+                        var xlinePos = ya._length + pad + xlw / 2;
+                        // remove this, so we calculate in each movement the height of the 
+                        // fill so we can use gradients.
+                        //  pt0[1] = pt1[1] = ya.c2p(0, true);
+                        pt0[1] = pt1[1] = xlinePos;
                     }
                     else if(ownFillDir === 'x') {
                         pt0[0] = pt1[0] = xa.c2p(0, true);
