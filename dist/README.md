@@ -80,7 +80,7 @@ The `basic` partial bundle contains the `scatter`, `bar` and `pie` trace modules
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 1.9 MB | 687.7 kB | 223.6 kB |
+| 1.9 MB | 687.8 kB | 223.6 kB |
 
 ### plotly.js cartesian
 
@@ -98,7 +98,7 @@ The `cartesian` partial bundle contains the `scatter`, `bar`, `box`, `heatmap`, 
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 2.1 MB | 773.6 kB | 249.7 kB |
+| 2.1 MB | 773.7 kB | 249.7 kB |
 
 ### plotly.js geo
 
@@ -116,7 +116,7 @@ The `geo` partial bundle contains the `scatter`, `scattergeo` and `choropleth` t
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 1.9 MB | 712.7 kB | 233.1 kB |
+| 1.9 MB | 712.8 kB | 233.2 kB |
 
 ### plotly.js gl3d
 
@@ -152,7 +152,7 @@ The `gl2d` partial bundle contains the `scatter`, `scattergl`, `pointcloud`, `he
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 2.9 MB | 1.2 MB | 371.8 kB |
+| 2.9 MB | 1.2 MB | 371.9 kB |
 
 ### plotly.js mapbox
 
@@ -188,7 +188,7 @@ The `finance` partial bundle contains the `scatter`, `bar`, `histogram`, `pie`, 
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 1.9 MB | 718.1 kB | 232.1 kB |
+| 1.9 MB | 718.2 kB | 232.1 kB |
 
 ----------------
 
